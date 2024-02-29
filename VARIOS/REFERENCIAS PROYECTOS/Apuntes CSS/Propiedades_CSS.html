@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="propiedades.css">
+    <style>
+        body{
+            background-color: mediumpurple;
+        }
+        h1{
+            text-align: center;
+            color:rgb(0, 255, 213);
+            font-size: 48px;
+            font-family: "Cooper Black";
+        }
+        .parrafo{
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #blanco{
+            color:rgba(250, 235, 215, 0.487);
+        }
+        #rojo{
+            color:rgb(179, 80, 100);
+        }
+    </style>
+    <title>Propiedades CSS</title>
+</head>
+
+<body>
+    <h1>Colores en CSS</h1>
+    <p class="parrafo" id="blanco">En CSS podemos introducir los colores de 2 maneras distintas</p>
+    <ul>
+        <li>Si vamos a introducir un color de texto: utilizamos la propiedad <b>color</b></li>
+        <li>si vamos a introducir un color de fondo (body, divs, etc): utilizamos la propiedad 
+            <br><b>background-color</b>
+        </li>
+    </ul>
+    <p class="parrafo" id="rojo">Las maneras en las que podemos poner los colores en CSS son de las siguientes formas:</p>
+    <ul>
+        <li>Palabra del color predefinida: Eje: red, blue, green, etc.</li>
+        <li>Esquema RGB: Red Green Blue en decimal (0-255). Eje: rgb (245,23,36)</li>
+        <li>Esquema RGB con un capa alpha. La capa alpha, representa
+            <br>la opacidad del color al que estamos aplicando el RGB.
+            <br>Estos valores van desde el 0 como el más transparente, y el 1 como el más opaco. Eje: rgb (245,23,36,0.5)</li>
+        <li>Esquema RGB: Red Green Blue (Hexadecimal):#RRGGBB. Ejemplo: #FF0022</li>
+        <li>Esquema RGB: Red Green Blue (Hexadecimal) pero abreviados:#RGB. Ejemplo: #F20223 quedaría de esta manera: #FF0022</li>
+    </ul>
+<hr>
+<h3>Modelo de Cajas en CSS</h3>
+Todos los elementos que vamos a utilizar en las páginas webs son cajas.
+<br>Vamos a poder representar en las cajas todos los elementos existentes en HTML: listas, cabeceras, etc.
+<br>Para ello vamos a utilizar una serie de propiedades a tener en cuenta como son las siguientes:
+<ul>
+    <li><b>Margin</b>: son los márgenes que vamos a tener entre el contenedor (caja) y el navegador</li>
+    <li><b>Padding</b>: son los márgenes que vamos a tener entre el contenido de nuestra caja y los
+    <br>bordes de esta.</li>
+</ul>
+<br><img src="img/margenes.png" alt="">
+<hr>
+<h3>Modelos de Cajas en CSS: Ejemplos de Overflow</h3>
+<h4>Ejemplo Overflow Visible</h4>
+<div class="visible">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde iure nemo velit consequatur facilis iste nihil, id, illo ex rem molestiae consectetur, error est. Nam consequuntur vitae ipsam culpa?
+  Molestiae distinctio quasi quod alias, explicabo, accusamus repellat facilis atque enim nisi obcaecati harum repudiandae. Consequuntur tenetur eveniet aliquam dolorem optio libero a voluptas! Doloribus explicabo ad tempora eligendi saepe!
+  Esse consequuntur, voluptatem amet dolore fugiat accusamus, aliquid vitae unde pariatur adipisci repudiandae asperiores eligendi nesciunt ad illo cum maiores reiciendis mollitia corporis deleniti dicta delectus? Optio excepturi rem cum?
+  Aspernatur architecto molestias aut tenetur, repellendus temporibus! Quod expedita dicta ipsa tenetur saepe nam, ut harum alias. Laborum incidunt dolore quas fuga porro molestias, omnis temporibus saepe! Aliquam, est libero!
+  Pariatur, sint? Nisi id fugit dolorem, nesciunt quidem fugiat cum dolor numquam ullam eaque dicta a eveniet deserunt accusantium. Voluptatum nostrum quibusdam voluptatibus quisquam sed unde nemo. Aut, voluptatem vitae.
+  Dolore delectus ea voluptates sequi earum culpa molestiae voluptate quae itaque est neque numquam saepe, assumenda aspernatur et repudiandae porro quisquam corrupti quo sapiente totam alias quam modi accusamus. Corrupti?
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4>Ejemplo Overflow Hidden</h4>
+<div class="hidden">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde iure nemo velit consequatur facilis iste nihil, id, illo ex rem molestiae consectetur, error est. Nam consequuntur vitae ipsam culpa?
+  Molestiae distinctio quasi quod alias, explicabo, accusamus repellat facilis atque enim nisi obcaecati harum repudiandae. Consequuntur tenetur eveniet aliquam dolorem optio libero a voluptas! Doloribus explicabo ad tempora eligendi saepe!
+  Esse consequuntur, voluptatem amet dolore fugiat accusamus, aliquid vitae unde pariatur adipisci repudiandae asperiores eligendi nesciunt ad illo cum maiores reiciendis mollitia corporis deleniti dicta delectus? Optio excepturi rem cum?
+  Aspernatur architecto molestias aut tenetur, repellendus temporibus! Quod expedita dicta ipsa tenetur saepe nam, ut harum alias. Laborum incidunt dolore quas fuga porro molestias, omnis temporibus saepe! Aliquam, est libero!
+  Pariatur, sint? Nisi id fugit dolorem, nesciunt quidem fugiat cum dolor numquam ullam eaque dicta a eveniet deserunt accusantium. Voluptatum nostrum quibusdam voluptatibus quisquam sed unde nemo. Aut, voluptatem vitae.
+  Dolore delectus ea voluptates sequi earum culpa molestiae voluptate quae itaque est neque numquam saepe, assumenda aspernatur et repudiandae porro quisquam corrupti quo sapiente totam alias quam modi accusamus. Corrupti?
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4>Ejemplo Overflow Scroll</h4>
+<div class="scroll">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde iure nemo velit consequatur facilis iste nihil, id, illo ex rem molestiae consectetur, error est. Nam consequuntur vitae ipsam culpa?
+  Molestiae distinctio quasi quod alias, explicabo, accusamus repellat facilis atque enim nisi obcaecati harum repudiandae. Consequuntur tenetur eveniet aliquam dolorem optio libero a voluptas! Doloribus explicabo ad tempora eligendi saepe!
+  Esse consequuntur, voluptatem amet dolore fugiat accusamus, aliquid vitae unde pariatur adipisci repudiandae asperiores eligendi nesciunt ad illo cum maiores reiciendis mollitia corporis deleniti dicta delectus? Optio excepturi rem cum?
+  Aspernatur architecto molestias aut tenetur, repellendus temporibus! Quod expedita dicta ipsa tenetur saepe nam, ut harum alias. Laborum incidunt dolore quas fuga porro molestias, omnis temporibus saepe! Aliquam, est libero!
+  Pariatur, sint? Nisi id fugit dolorem, nesciunt quidem fugiat cum dolor numquam ullam eaque dicta a eveniet deserunt accusantium. Voluptatum nostrum quibusdam voluptatibus quisquam sed unde nemo. Aut, voluptatem vitae.
+  Dolore delectus ea voluptates sequi earum culpa molestiae voluptate quae itaque est neque numquam saepe, assumenda aspernatur et repudiandae porro quisquam corrupti quo sapiente totam alias quam modi accusamus. Corrupti?
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4>Ejemplo Overflow Auto</h4>
+<div class="auto">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde iure nemo velit consequatur facilis iste nihil, id, illo ex rem molestiae consectetur, error est. Nam consequuntur vitae ipsam culpa?
+  Molestiae distinctio quasi quod alias, explicabo, accusamus repellat facilis atque enim nisi obcaecati harum repudiandae. Consequuntur tenetur eveniet aliquam dolorem optio libero a voluptas! Doloribus explicabo ad tempora eligendi saepe!
+  Esse consequuntur, voluptatem amet dolore fugiat accusamus, aliquid vitae unde pariatur adipisci repudiandae asperiores eligendi nesciunt ad illo cum maiores reiciendis mollitia corporis deleniti dicta delectus? Optio excepturi rem cum?
+  Aspernatur architecto molestias aut tenetur, repellendus temporibus! Quod expedita dicta ipsa tenetur saepe nam, ut harum alias. Laborum incidunt dolore quas fuga porro molestias, omnis temporibus saepe! Aliquam, est libero!
+  Pariatur, sint? Nisi id fugit dolorem, nesciunt quidem fugiat cum dolor numquam ullam eaque dicta a eveniet deserunt accusantium. Voluptatum nostrum quibusdam voluptatibus quisquam sed unde nemo. Aut, voluptatem vitae.
+  Dolore delectus ea voluptates sequi earum culpa molestiae voluptate quae itaque est neque numquam saepe, assumenda aspernatur et repudiandae porro quisquam corrupti quo sapiente totam alias quam modi accusamus. Corrupti?
+</div>
+<hr>
+<h3>Zonas de un Elemento de una Caja</h3>
+<ul>
+    <li><b>Top</b>: se refiere a la parte superior del elemento</li>
+    <li><b>Left</b>: se refiere a la parte izquierda del elemento</li>
+    <li><b>Right:</b>se refiere a la parte derecha del elemento</li>
+    <li><b>Bottom:</b>se refiere a la parte inferior del elemento</li>
+    <li><b>Center</b>: se refiere a la posición central entre dos extremos</li>
+</ul>
+</body>
+</html>

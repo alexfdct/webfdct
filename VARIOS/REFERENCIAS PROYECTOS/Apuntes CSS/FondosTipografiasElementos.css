@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "tetris" ;
+    src: url(font/Tetris.ttf);
+}
+@font-face {
+    font-family: "cheri" ;
+    src: url(font/CHERL___.TTF);
+}
+body{
+    background-image: url(img/escudo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    color:white;
+    background-color: blue;
+    font-family: "tetris";
+}
+p{
+    color:red;
+    background-color: cadetblue;
+    /* font-family: "cheri"; */
+    font-family: 'Dancing Script', cursive;
+    font-size:"14px";
+}
+div{
+    border:10px;
+    border-style: double dotted solid;
+    border-color:red gold blueviolet;
+    background-color: green;
+}
+img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin:auto;
+    border-radius: 50% 0 50% 0;
+    border:10px solid;
+    border-color:red gold blueviolet;
+}
+.opacidad{
+    opacity: 1;
+    filter: alpha(opacity=75);
+    zoom:1;
+}
+.opacidad:hover{
+    opacity: 0.75;
+    filter: alpha(opacity=100);
+    zoom:1;
+}
+.imagenes{
+    border: 2px solid red;
+    width: 200px;
+    display:block;
+    margin:auto;
+    background-image: url(img/leon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    
+    
+}

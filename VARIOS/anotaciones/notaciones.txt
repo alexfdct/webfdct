@@ -1,0 +1,93 @@
+Notaciones sobre lo que se va haciendo:
+
+index.html: Es la página principal, el punto de partida de todo lo que se vaya a hacer.
+> No sé que poner en la página de inicio...
+Lo primero que quiero que se vea es una imagen, o si es posible, un carrusel con un texto por encima que 
+acompañe a la imagen.
+Debajo de eso igual una sección apodada, "Te podría interesar..." y artículos de la página de "Blog de noticias"
+o fichas de la página de "Productos".
+Más allá de eso, abajo del todo puede haber lo tipico de las páginas web, un "footer" con texto en pequeño e 
+hiperenlaces a sitios.
+
+
+
+IDEAS
+
+NOMBRE EMPRESA: Open System Consulting (OSC) "Opsycon"
+El modelo de negocio/empresa sería de una "tienda" que se encarga de compar y vender equipos, además de restaurarlos
+arreglarlos y de configurar equipos completamente bajo demanda.
+
+Los servicios que prestarían son:
+- Asistencia técnica: El cliente nos trae su equipo (Ya sea portátil o de sobremesa) y nosotros le haremos
+el correspondiente diagnóstico y, si el cliente acepta el presupuesto de la operación, haremos las modificaciones
+oportunas
+- Cambio de componentes: Nos ofrecemos a cambiar los componentes de tu equipo por unos nuevos, ya sea bajo petición 
+específica del cliente o bajo nuestra opinión.
+- Compra/Venta de equipos de sobremesa: Compramos equipos de sobremesa de personas que no quieran utilizarlos, los 
+restauramos y los vendemos.
+Configuración de un nuevo equipo bajo demanda: Configuramos un equipo desde cero, bajo la demanda del cliente.
+
+
+
+
+
+Color principal:
+
+#f1f1f1/(ECE6C2) (blanco grisáceo): Este color se puede usar para el fondo de la página web, el encabezado, el pie de página o los elementos más importantes de la página.
+Colores secundarios:
+
+#6f5643 (marrón oscuro): Este color se puede usar para los títulos, los subtítulos, los bordes o los elementos decorativos.
+#cc6b49 (naranja rojizo): Este color se puede usar para los botones, los menús, las pestañas o los elementos que quieres que destaquen.
+#d2a24c (amarillo mostaza): Este color se puede usar para los iconos, las imágenes o los elementos que quieres que sean llamativos.
+Color de contraste:
+
+#738da8 (azul grisáceo): Este color se puede usar para los enlaces, los botones de llamada a la acción o los elementos que quieres que destaquen.
+Ejemplos de cómo usar la jerarquía de colores:
+
+Encabezado: Usa el color principal (#f1f1f1) para el fondo del encabezado y el color secundario (#6f5643) para el texto del encabezado.
+Cuerpo de la página: Usa el color principal (#f1f1f1) para el fondo del cuerpo de la página y el color secundario (#cc6b49) para los títulos y subtítulos.
+Botones: Usa el color secundario (#d2a24c) para los botones y el color de contraste (#738da8) para el texto de los botones.
+Enlaces: Usa el color de contraste (#738da8) para los enlaces.
+
+
+
+Encabezado:
+
+Fondo: #f1f1f1 (blanco grisáceo)
+Texto: #6f5643 (marrón oscuro)
+
+
+Cuerpo de la página:
+
+Fondo: #f1f1f1 (blanco grisáceo)
+Títulos: #cc6b49 (naranja rojizo)
+Subtítulos: #6f5643 (marrón oscuro)
+Texto: #333333 (negro)
+
+
+Botones:
+
+Fondo: #d2a24c (amarillo mostaza)
+Texto: #738da8 (azul grisáceo)
+
+
+Enlaces:
+
+Color: #738da8 (azul grisáceo)
+Ejemplo de página web:
+
+
+
+
+
+El encabezado usa el color principal (#f1f1f1) como fondo y el color secundario (#6f5643) para el texto.
+El cuerpo de la página usa el color principal (#f1f1f1) como fondo, el color secundario (#cc6b49) para los títulos, el color secundario (#6f5643) para los subtítulos y el color negro (#333333) para el texto normal.
+Los botones usan el color secundario (#d2a24c) como fondo y el color de contraste (#738da8) para el texto.
+Los enlaces usan el color de contraste (#738da8).
+
+FUENTES
+
+<h1> Franchise
+<h2>/<h3> ¿?
+<body> Futura
+

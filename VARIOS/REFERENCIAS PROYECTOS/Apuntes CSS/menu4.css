@@ -1,0 +1,33 @@
+body{
+    background-image: url(img/1592.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top:-10px;
+}
+li{
+    background-color: darkgoldenrod;
+    border:2px solid black;
+    margin-top:0px;
+    margin-right:-5px;
+    padding:0px 4px;
+    display:inline-block;
+    width: 5em; /*16px = 80px*/
+}
+a{
+    text-decoration: none;
+    color:black;
+    padding:0px 4px;
+}
+a:hover{
+    color:darkgoldenrod;
+}
+li:hover{
+    color:darkgoldenrod;
+    background-color: black;
+}

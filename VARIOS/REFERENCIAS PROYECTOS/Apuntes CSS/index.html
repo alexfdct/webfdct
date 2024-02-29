@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Externo: -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- CSS Interno: -->
+    <style>
+        body{
+            background-color: blueviolet;
+            font-size: 33px;
+            font-family: "Verdana";
+            color:beige;
+        }
+    </style>
+    <title>Introducción a CSS</title>
+</head>
+<body>
+    <h1>INTROUDCCIÓN A CSS (CASCADING STYLE SHEETS)</h1>
+    <br>Para poder utilizar CSS en HTML, podemos hacerlo de tres maneras o formas:
+    <ul>
+        <li>CSS Externo: es aquel que va dentro de la cabecera de mi html (head).
+            <br>Tiene la siguiente forma: link rel (release) = stylesheet type=text/css href=""
+            <!-- <link rel="stylesheet" href="style.css"> -->
+        </li>
+        <li>CSS Interno: es aquel que va dentro de la cabecera de mi html (head), pero
+            <br>va entre las etiquetas style de aperta y de cierre.
+        </li>
+        <li>CSS Embebido: es aquel que se aplica directamente a la etiqueta HTML</li>
+    </ul>
+    <br>Ejemplo de HTML Embebido:
+    <br>Hola <span style="color:#FF0000">esto es un ejemplo de CSS</span> Embebido
+    <p style="font-size: 44px; color:chartreuse; font-family: Georgia, 'Times New Roman', Times, serif;">Esto es otro ejemplo de CSS Embebido</p>
+    <hr>
+    <hr>
+    <h1>Elementos ID y Class utilizados en CSS para HTML</h1>
+    <h3>Elemento ID</h3>
+    <br>El elemento ID, se puede definir en CSS y HTML como el atributo para un elemento único.
+    <br>Es decir, no debería haber otro elemento con el mismo nombre de identificador (id)
+    <br>dento de un mismo HTML.
+    <br>Ejemplo de Elemento ID en HTML y CSS
+    <br>
+    <p>
+        <div id="charmander">
+            Charmander
+        </div>
+        <br>
+        <div>
+            Bullbasur
+        </div>
+    </p>
+    <hr>
+    <hr>
+    <h3>Elemento CLASS</h3>
+    <br>El elemento CLASS, se puede definir en CSS y HTML, a diferencia del valor 
+    <br>del atributo ID, como un elemento que puede ser utilizado en más de una etiqueta
+    <br>de un documento HTML. Es decir, lo puedo usar en varios tipos de etiquetas distintas
+    <br>
+    <p>
+        <div class="pokemon">
+            Squirtle
+        </div>
+        <br>
+        <p class="pokemon">
+            Bullbasur
+        </p>
+    </p>
+</body>
+</html>

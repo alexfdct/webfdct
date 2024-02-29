@@ -1,0 +1,30 @@
+body{
+    background-color: steelblue ;
+}
+h1{
+    text-align: center;
+    color:beige;
+    font-size: 32px;
+}
+.starwars{
+    border: 3px solid yellow;
+    text-align: center;
+    font-family: "Consolas";
+    font-size: 22px;
+}
+#dark{
+    background-color: black;
+    color:red;
+}
+#obi{
+    background-color: chocolate;
+    color:bisque;
+}
+#yoda{
+    background-color: green;
+    color:bisque;
+}
+#r2{
+    background-color: blue;
+    color:whitesmoke;
+}

@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+li{
+    background-color: blueviolet;
+    display: inline;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    padding:0 4px;
+    border:2px solid #E49BF8;
+}
+a{
+    color:white;
+    padding:0 4px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #E49BF8;
+    color:blueviolet;
+    cursor:help;
+}
+li:hover{
+    background-color: #E49BF8;
+    color:blueviolet;
+    border:2px solid blueviolet;
+    cursor:help;
+}

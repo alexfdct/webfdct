@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablalistas.css">
+    <!-- tipografia google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+
+    <title>Alineación Texto, Tablas y Listas</title>
+</head>
+<body>
+    <h1>Alineación Textos</h1>
+    Los textos en HTML, cuando queremos alienarlos con CSS, utilizamos la propiedad text-align.
+    <br>Para ello, utilizamos los siguientes atributos:
+    <ul>
+        <li>Center: centrar texto</li>
+        <li>Jutify: justificación del texto</li>
+        <li>Right: para alinear texto a la derecha</li>
+        <li>Left: alinear texto a la izquierda</li>
+    </ul>
+    <br>
+    <h3>Ejemplos de alineación</h3>
+    <h4>Titulo H4 Centrado</h4>
+    <p class="parrafo_uno">
+        Esto es un Ejemplo de párrafo alineado a la derecha
+    </p>
+    <p class="texto">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, eos. Omnis exercitationem earum ipsum culpa voluptatem consequuntur corporis illo doloremque! Architecto dicta similique aliquid minima expedita ad? Labore, deleniti. Veniam.
+        Voluptates sed temporibus enim eius rerum officiis, consequuntur accusantium laboriosam amet, sapiente, reprehenderit quod quam eligendi ab non harum tenetur aspernatur? Quod delectus cumque, excepturi debitis in fuga aliquam ad?
+        Iusto excepturi adipisci, sapiente dignissimos, molestiae aperiam soluta maiores expedita fuga quis repellendus quas tenetur sint odio quidem a incidunt obcaecati repellat quae, voluptatem harum placeat. Distinctio cumque laudantium adipisci.
+        Officia cupiditate voluptatum dolorem. Adipisci magnam, expedita dolore ab saepe rerum corporis eveniet eaque consectetur fuga recusandae alias doloremque, blanditiis tempore dolorem eligendi deserunt maiores. At sit facilis ratione accusantium.
+        Voluptas ea aliquam exercitationem, atque reiciendis, iure amet culpa accusamus, dolores illo ducimus. Sit nobis aliquid a similique, doloremque magnam ea velit modi nihil neque blanditiis reiciendis ipsam quod veritatis?
+    </p>
+    <br>A veces, para poder centrar elementos de linea, utilizamos elementos en bloque junto con el atributo 
+    <br>text-align:center. Esta NO es la mejor manera de centrar o alinear dichos elementos, puesto que lo más
+    <br>recomendable es utilizar elementos como display y margin para que esto quede de la mejor manera posible
+    <br> y sobre todo, que siga el flujo natural del posicionamiento de los elementos.
+    <p class="foto">
+        <img src="img/leon.jpg" alt="">
+    </p>
+    <hr>
+    <h1>Sangrías en CSS: text-indent</h1>
+    Para poder establecer sangrías en CSS, utilizaremos la propiedad text-indent.
+    <h3>Ejemplo de Sangría en CSS</h3>
+    <p class="sangria">
+        La Programación Orientada a Objetos (POO, o en inglés OOP, Object Oriented Programming) es un paradigma de programación que pretende desarrollar aplicaciones basándose en el comportamiento de los objetos del mundo real.
+    </p>
+    <hr>
+    <h1>Decoración texto en CSS</h1>
+    La propiedad text-decorate nos permite añadir a un bloque detexto distintos tipos de rayado.
+    <ul>
+        <li>text-decoration:underline 
+            <p class="underline">Ejemplo: Texto con underline en CSS </p>
+        </li>
+        <li>text-decoration:overline 
+            <p class="overline">Ejemplo: Texto con overline en CSS </p></li>
+        <li>text-decoration:line-throught
+            <p class="tachado">Ejemplo: Texto con line-throught en CSS </p></li>
+        <li>text-decoration:none
+            <p>Ejemplo: Texto con none en CSS <a href="#">Pincha aquí para ir al link</a></p></li>
+    </ul>
+    <hr>
+    <h1>Propiedades CSS para Tablas</h1>
+    Las propiedes que podemos aplicar a las tablas en CSS, son las siguientes:
+    <ul>
+        <li><b>border-collapse:</b> permite especificar si el borde de una tabla y sus celdas deben estar
+        <br>unidos (collapse) o separados (separate)</li>
+        <li><b>border-spacing:</b> especifica el tamaño que medirán los espacio exteriores entre celdas</li>
+        <li><b>caption-side:</b> permite especificar donde se colocará el título de la tabla (en el caso
+        <br> de haber usado caption): al principio de la tabla (top) o al final (bottom)</li>
+        <li><b>empty-cells:</b> establecer si mostrar (show) u ocultar (hide) las celdas vacías, haciendo
+        <br> desaparecer estas últimas.</li>
+        <li><b>table-layout:</b> permite especificar si el navegador debe adaptar el tamaño de las celdas
+        <br> automáticamente (auto) o establecer un tamaño fijo (fixed)</li>
+    </ul>
+    <hr>
+    <h1>Listas en CSS: list-style-type</h1>
+    Los marcadores de listas ordenadas (ol) y de las listas desordenadas (ul), pueden ser modificables a través
+    <br> del atributo <b>list-style-type</b>
+    <h3>Listas Desordenadas (ul)</h3>
+    <ul>
+        <li>disc </li>
+        <li>circle</li>
+        <li>square</li>
+        <li>none</li>
+    </ul>
+    <h3>Listas Ordenadas (ol)</h3>
+    <ul>
+        <li>decimal: 1,2,3...</li>
+        <li>decimal-leading-zero: 01,02,03...</li>
+        <li>lower-roman/upper-roman: i,ii,iii,iv... I,II,III,IV...</li>
+        <li>lowe-alpha/lower-latin y el upper-alpha/upper-latin:aA, bB, cC, dD, eE...</li>
+    </ul>
+    <h1>Listas en CSS: list-style-image</h1>
+    La característica que tiene, es que nos permite insertar una imagen (icono) como marcador de la lista.
+    <ul class="marcador">
+        <li><span>C</span>apitan America</li>
+        <li><span>I</span>ronman</li>
+        <li><span>T</span>hor</li>
+        <li><span>H</span>ulk</li>
+    </ul>
+</body>
+</html>

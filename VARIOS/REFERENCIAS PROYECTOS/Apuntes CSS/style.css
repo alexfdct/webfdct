@@ -1,0 +1,22 @@
+h1{
+    color:yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/******************************************************************/
+/* ESto es un comentario en HTML <!-- --> */
+/* Esto es un comentario en CSS*/
+div{
+    border:2px solid red;
+}
+#charmander{
+    background: orange;
+    text-align: center;
+    font-family: "Broadway";
+}
+.pokemon{
+    background: skyblue;
+    font-size: 24px;
+    color:rgba(255, 127, 80, 0.729);
+    
+}

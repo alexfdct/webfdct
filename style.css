@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Franchise;
+    src: url(font/Franchise.ttf)
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+body{
+    background-image: url();
+    background-repeat: center;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+ul{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+nav li{
+    display: inline-block;
+    width: 200px;
+    padding: 5px 10px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+
+nav li:hover{
+
+    background-color: white;
+    color: black;
+}
+
+
+
+
+body{
+
+    font-family:Franchise ;
+
+    
+}

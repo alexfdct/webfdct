@@ -1,0 +1,32 @@
+.visible{
+    /*Tamaño de la caja 1em=16px*/
+    height: 300px;
+    width: 300px;
+    color:white;
+    border:2px solid red;
+    overflow: visible;
+}
+.hidden{
+    /*Tamaño de la caja 1em=16px*/
+    height: 300px;
+    width: 300px;
+    color:white;
+    border:2px solid red;
+    overflow: hidden;
+}
+.scroll{
+    /*Tamaño de la caja 1em=16px*/
+    height: 300px;
+    width: 300px;
+    color:white;
+    border:2px solid red;
+    overflow: scroll;
+}
+.auto{
+    /*Tamaño de la caja 1em=16px*/
+    height: 300px;
+    width: 50px;
+    color:white;
+    border:2px solid red;
+    overflow: auto;
+}

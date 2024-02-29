@@ -1,0 +1,9 @@
+Hemos decicido quitar la página de "Blog de noticias" ya que no teníamos ningún contenido
+que pudiese encajar con la página.
+En su lugar, hemos añadido una página llamada "Escaparate", que hace referencia al catálogo de la tiendas
+
+Quiénes somos > Contacto 
+
+Productos y servicios > Escaparate / Propuestas
+La página de inicio será el propio logo de la empresa, es decir, al hacer click en el 
+logo, se redigirá a la página de inicio.

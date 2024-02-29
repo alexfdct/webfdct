@@ -1,0 +1,61 @@
+@font-face {
+    font-family: marvel;
+    src: url(font/marvel.ttf);
+}
+body{
+    cursor : url("img/puntero.svg");
+}
+h4{
+    color:blue;
+    text-align: center;
+}
+.parrafo_uno{
+    color:chocolate;
+    text-align: right;
+}
+.texto{
+    color:blueviolet;
+    text-align: justify;
+}
+.foto{
+    text-align: center;
+}
+img{
+    /* display: block;
+    margin:0 auto; */
+    width:400px;
+    height: 400px;
+    /* text-align:center; */
+}
+.sangria{
+    color:crimson;
+    font-size:48px;
+    font-family: 'Sevillana', cursive;
+    text-indent: -100px;
+    margin-left:100px;
+    text-align: justify;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.tachado{
+    text-decoration:line-through
+}
+a{
+    
+    text-decoration: none;
+    color:blueviolet;
+}
+.marcador{
+    list-style-image: url(img/vengadores.png);
+    color: red;
+    font-size: 16px;
+    font-family: "marvel";
+
+}
+span{
+    color:blue;
+}

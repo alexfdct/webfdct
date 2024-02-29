@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(img/sl_031420_28950_10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header{
+    margin:100px auto;
+    width:1200px;
+    height: 230px;
+    background-color: red;
+}
+div.contener{
+    width:150px;
+    height: 230px;
+    float:left;
+    transition: height .4s;
+}
+div#uno{
+    background-color: rgb(208,101,3);
+}
+div#dos{
+    background-color: rgb(233,147,26);
+}
+div#tres{
+    background-color: rgb(22,145,190);
+}
+div#cuatro{
+    background-color: rgb(22,107,162);
+}
+div#cinco{
+    background-color: rgb(27,54,71);
+}div#seis{
+    background-color: rgb(21,40,54);
+}
+div#siete{
+    background-color: rgb(95, 208, 3);
+}
+div#ocho{
+    background-color: rgb(177, 3, 208);
+}
+img.icon{
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255,255,255,.15);
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    transition: box-shadow .4s;
+}
+p.texto{
+    font-size: 1.2em;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .6;
+    transition: padding-top .4s;
+}
+div.contener:hover{
+    height: 250px;
+}
+div.contener:hover p.texto{
+    padding-top:30px;
+    opacity:1;
+    font-size: 1.3em;
+}
+div.contener:hover img.icon{
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}

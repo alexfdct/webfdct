@@ -1,0 +1,40 @@
+
+Cosas a tener en cuenta:
+
+    - Un manual de usuario en el que se explique el manejo de la página.
+    - Un manual de programador en el que se explique cómo se ha realizado la página (los pasos que se han seguido...).
+
+    - Contenido libre de derechos de autor.
+
+    - Precio estimado del proyecto.
+
+
+
+Mínimo de páginas:
+
+    -> Quienes somos
+    Explicación de la empresa o actividad a la que se dedica.
+
+    -> Proyectos y servicios
+    Indicar los proyectos y actividades o servicios de los que se ocupa la empresa
+
+    -> Productos
+    Galería de productos que la empresa vende, hace o utiliza.
+
+    -> Contacto
+    ¿¿¿FORMULARIO SEGÚN LO INDICADO???
+
+    -> Blog de Noticias
+    Web con recursos audiovisuales con curiosidades sobre los productos o servicios a los que se dedica vuestra empresa.
+
+    -> Área de clientes 
+    SE NECESITA JAVASCRIPT. Zona registro
+
+
+
+
+Características:
+    Logo de la empresa en la parte superior y favicon de la empresa
+
+
+

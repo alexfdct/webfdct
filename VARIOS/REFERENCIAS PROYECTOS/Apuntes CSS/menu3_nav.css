@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    font-size:0px;
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+ul{
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color:inherit;
+    font-size:20px;
+}
+nav li{
+    display: inline-block;
+    width:200px;
+    /* margin:-2px; */
+    padding:5px 10px;
+    background-color: #000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+nav li:hover{
+    background-color: #fff;
+    color:#000;
+}
