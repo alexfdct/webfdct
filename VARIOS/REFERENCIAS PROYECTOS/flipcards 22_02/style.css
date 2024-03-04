@@ -1,0 +1,128 @@
+@font-face {
+    font-family: imperio;
+    src: url(font/Evil\ Empire.otf);
+
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: imperio;
+
+}
+
+body{
+    display: flex;
+    /* alinear y ajustar */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: rgb(88, 88, 88); */
+    background-image: url(img/fondo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    /* margenes */
+    margin: 15px;
+
+}
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0px 5px 10px #000;
+
+}
+
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    /* indica como el contenido sera redimensionado para 
+    ajustarse al contenedor */
+    object-fit: cover;
+
+}
+
+.card .front h3{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: whitesmoke;
+    background: rgb(0, 0, 0, 0.4);
+    text-align: center;
+
+
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background-color: whitesmoke;
+    padding: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0px 5px 10px #000;
+
+}
+
+.card .back .link{
+    border-top: 1px solid whitesmoke;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.card .back .link a{
+    color: whitesmoke;
+
+}
+
+.card .back h3{
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 2px;
+
+}
+
+.card .back p{
+    letter-spacing: 1px;
+    
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+
+}
