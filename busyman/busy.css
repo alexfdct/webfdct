@@ -53,7 +53,7 @@ nav .menu {
   background: #fff;
   color: black;
 }
-.img {
+.fondo {
   background: url("pc.avif") no-repeat;
   width: 100%;
   height: 100vh;
@@ -61,14 +61,15 @@ nav .menu {
   background-position: center;
   position: relative;
 }
-.img::before {
+.fondo
+::before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
-.center {
+.nucleo {
   position: absolute;
   top: 52%;
   left: 50%;
@@ -77,20 +78,20 @@ nav .menu {
   padding: 0 20px;
   text-align: center;
 }
-.center .title {
+.nucleo .titulo {
   color: #fff;
   font-size: 55px;
   font-weight: 600;
 }
-.center .sub_title {
-  color: #fff;
-  font-size: 52px;
+.nucleo .subtitulo {
+  color: #cdcdcd;
+  font-size: 42px;
   font-weight: 600;
 }
-.center .btns {
+.nucleo .nano {
   margin-top: 20px;
 }
-.center .btns button {
+.nucleo .nano button {
   height: 55px;
   width: 170px;
   border-radius: 5px;
@@ -100,19 +101,15 @@ nav .menu {
   font-size: 20px;
   font-weight: 500;
   padding: 0 10px;
-  cursor: pointer;
+  cursor: help;
   outline: none;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
-.center .btns button:first-child {
+.nucleo .nano button {
   color: #fff;
   background: none;
 }
-.btns button:first-child:hover {
-  background: white;
-  color: black;
-}
-.center .btns button:last-child {
+.nano button:hover {
   background: white;
   color: black;
 }
