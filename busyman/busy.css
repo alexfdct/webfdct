@@ -102,7 +102,7 @@ nav .menu {
     background-size: cover;
     background-position: center;
     position: relative;
-    
+
   }
 
 
@@ -127,17 +127,21 @@ nav .menu {
   color: white;
 }
 
-  .nucleo-quienes {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 0 20px;
-    text-align: left;
-    color: white;
-    margin-left: 10%;
-  }
+.nucleo-quienes {
+  position: relative;
+  margin-top: -32.5%;
+  margin-left: 2.5%;  
+  margin-right: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 55%;  
+  padding: 0 20px;  
+  color: white;
+  display: block;
+
+}
+
 
 
 .nucleo .titulo {
