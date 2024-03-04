@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    text-decoration: none;
 }
 body{
     background-color: #ECE6C2;
@@ -8,8 +9,8 @@ body{
 header{
     display: block;
     margin:auto;
-    width: 500px;
-    font-family: "Arial Narrow";
+    width: 900px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 ul{
     list-style: none;
@@ -18,8 +19,12 @@ ul{
 .nav li a{
     /*Los elementos a que están en el li directamente de la clase nav, heredarán las propiedades
     que le indicamos a continuación*/
-    background-color: darkred;
-    color:whitesmoke;
+    background-color: #D2A24C;
+    box-shadow: 5px 5px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 1.5%;
     text-decoration: none;
     
     /*Le asignamos un padding top y bottom de 10px,y laterales de 15px. Esto es según vuestras características
@@ -31,7 +36,7 @@ ul{
     display: block;
 }
 .nav li a:hover{
-    background-color: darksalmon;
+    background-color: #e6b355;
 }
 .nav > li{
     /*Indicamos que los elementos directos li que están en nav, tendrán las 
@@ -44,13 +49,13 @@ ul{
     /*Establecemos una posición absoluta a los submenús, con un tamaño mínimo de anchura
     para que todos sean iguales*/
     position: absolute;
-    min-width: 140px;
+    min-width: 10px;
+    margin-top: 6.7vh;
 }
 
 .nav li:hover > ul{
     /*Mostramos los submenús cuando sólo pasamos el ratón por encima de la opción marcada*/
     display:block;
-    background-color: grey;
 }
 .nav li ul li{
     position:relative;
@@ -58,18 +63,12 @@ ul{
 .nav li ul li ul{
     right:-140px;
     /* left:-140px; */
-    top:0px;
+    top:100px;
 }
-
-
-
-
-
 
 
 body{
 
     font-family:Franchise ;
-
     
 }
