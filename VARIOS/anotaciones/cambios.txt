@@ -7,3 +7,32 @@ Quiénes somos > Contacto
 Productos y servicios > Escaparate / Propuestas
 La página de inicio será el propio logo de la empresa, es decir, al hacer click en el 
 logo, se redigirá a la página de inicio.
+
+CAMBIO COMPLETO DE PÁGINA
+
+Hemos puesto los siguientes apartados:
+- Inicio
+- Quienes somos
+- Productos y servicios
+- Contacto
+- Área de clientes
+
+De momento, los colores que vamos a utilizar van a ser (generalmente) negros, grises y blancos.
+
+Los botones de la barra superior tendrán una pequeña animación al pasar el ratón por encima.
+
+Inicio:
+No va a tener nada especial, un título y un subtítulo
+CAMBIO < Un botón en el inicio que diga "Saber más" y te lleve a productos y servicios.
+
+Quienes somos: (Aquí "Alejandro" escribirá qué se supone que va a ir aquí)
+
+Productos y servicios:
+Pequeño texto acerca de las reparaciónes y otro acerca de la venta.
+Anuncios (Estilo zapatilla) en los que pondremos equipos
+
+Contacto:
+FlipCards con información
+
+Área de clientes:
+El formulario de inicio de sesión
