@@ -629,9 +629,9 @@ margin-left: -1.5vw; */
   left:-40px;
   top: 2vh;
   display: inline-block;
+ display: inline-block; padding: 30px;
 }
-  { display: inline-block; padding: 30px;}
-  .drop { filter: drop-shadow(0 2px 5px rgb(108, 3, 255)); }
+.drop { filter: drop-shadow(0 2px 5px rgb(108, 3, 255)); }
 
 /* //////////////////////////////////////////////////////////////////////// */
 
