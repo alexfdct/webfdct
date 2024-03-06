@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+body{
+    background-color: #7a9def;
+}
+.contenedor{
+    width: 800px;
+    height: 70vh;
+    margin:100px 250px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+.imagen{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #FE6C3B;
+}
+.texto{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #282f3f;
+    padding:25px;
+}
+h2{
+    color:#fe6c3b;
+    font-size:2em; /*1em=16px*/
+}
+.icons{
+    position: absolute;
+    left:220px;
+    top:25px;
+    font-size:1.5em;
+}
+.fa-solid{
+    margin:10px 10px;
+    color:white;
+}
+.parrafo{
+    margin-top:100px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+.precio, .precio1{
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+}
+.precio1{
+    text-decoration: line-through;
+    color:red;
+}
+.icon1, .icon2{
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+.icon2{
+    left:180px;
+}
+.imagen, .texto{
+    float: left;
+}
+img{
+    z-index: 50;
+    width: 550px;
+    position: absolute;
+    left:-110px;
+    top:100px;
+}
+.fa-solid:hover, a:hover{
+    color:#FE6C3B;
+}
