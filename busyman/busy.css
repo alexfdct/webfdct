@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 
@@ -344,7 +343,7 @@ margin-left: -1.5vw; */
   font-size: 20px;
   font-weight: 500;
   padding: 0 10px;
-  cursor: help;
+  cursor: context-menu;
   outline: none;
   transition: all 0.3s ease-in;
   margin-left: 42.5vw;
@@ -373,6 +372,89 @@ margin-left: -1.5vw; */
   font-weight: 600;
 }
 
+.pydnucleo .pydnano2 button {
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: auto;
+  outline: none;
+  transition: all 0.3s ease-in;
+  margin-left: 42.5vw;
+}
+
+.pydnucleo .pydnano2 button {
+  color: #fff;
+  background: none;
+}
+
+
+.pydnano2 button:hover {
+  background: white;
+  color: black;
+}
+
+/* FOOTER PYD */
+
+.pydfooter{
+  background:#000;
+  padding:30px 0px;
+  font-family: sans-serif;
+  text-align:center;
+  text-decoration: none;
+  margin-top: 10vh;
+  width: 100vw;
+  margin-left: -1.5vw;
+  } 
+  
+  
+  .pydfooter .pydrow{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+  
+  }
+  
+  
+  .pydfooter .pydrow a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+  
+  }
+  
+  
+  .pydfooter .pydrow a:hover{
+    color:#fff;
+  
+  }
+  
+  
+  .pydfooter .pydrow ul{
+    width:100%;
+  
+  }
+  
+  
+  .pydfooter .pydrow ul li{
+    display:inline-block;
+    margin:0px 30px;
+    text-decoration: none;
+  }
+  
+  
+  .pydfooter .pydrow a i{
+    font-size:2em;
+    margin:0% 1%;
+  
+  }
 
 /* FLIPCARDS */
 
