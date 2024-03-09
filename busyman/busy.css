@@ -597,10 +597,23 @@ margin-left: -1.5vw; */
   font-size: 0.9em;
   margin-top: -10px;
 }
-.anunciotitulo b{
+
+.anunciotitulo Nue{
   color: lightgreen;
   font-size: 1.25em;
+  font-style: bold;
 }
+.anunciotitulo Rea{
+  color: orange;
+  font-size: 1.05em;
+  font-style: bold;
+}
+.anunciotitulo Act{
+  color: lightskyblue;
+  font-size: 1.25em;
+  font-style: bold;
+}
+
 .precio, .precio1{
   display: inline-block;
   margin-right: 10px;
@@ -624,14 +637,46 @@ margin-left: -1.5vw; */
 }
 .contenedor img{
   z-index: 50;
-  width: 275px;
   position: absolute;
-  left:-40px;
-  top: 2vh;
-  display: inline-block;
- display: inline-block; padding: 30px;
+  display: inline-block; padding: 30px;
 }
-.drop { filter: drop-shadow(0 2px 5px rgb(108, 3, 255)); }
+.drop{ 
+  filter: drop-shadow(0 2px 5px rgb(108, 3, 255));
+  height: 100%;
+  left:-10vh;
+}
+
+.drop2{ 
+  filter: drop-shadow(0 2px 5px red);
+  height: 100%;
+  left:-15vh;
+}
+
+.drop3{ 
+  filter: drop-shadow(0 2px 5px rgb(254, 149, 167)); 
+  height: 100%;
+  left:-10vh;
+}
+
+.drop4{ 
+  filter: drop-shadow(0 2px 5px white);
+  height: 100%;
+  left:-10vh;
+}
+
+.drop5{ 
+  filter: drop-shadow(0 2px 5px rgb(0, 110, 255)); 
+  height: 100%;
+  left:-15vh;
+}
+
+.drop6{ 
+  filter: drop-shadow(0 2px 5px magenta); 
+  height: 100%;
+  left:-10vh;
+}
+
+
 
 /* //////////////////////////////////////////////////////////////////////// */
 
