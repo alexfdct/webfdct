@@ -732,18 +732,20 @@ margin-left: -1.5vw; */
 
 .card .front{
   transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0px 5px 10px #000;
 
 }
 
 .card .front img{
+
+  top: 25%;
+  left: 25%;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   
   /* indica como el contenido sera redimensionado para 
   ajustarse al contenedor */
-  object-fit: cover;
+  object-fit: contain;
 
 }
 
@@ -762,9 +764,8 @@ margin-left: -1.5vw; */
 
 .card .back{
   transform: perspective(600px) rotateY(180deg);
-  background-color: whitesmoke;
   padding: 15px;
-  color: #000;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
