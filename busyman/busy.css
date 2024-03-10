@@ -92,18 +92,17 @@ nav .menu {
 
 
 .fondo {
-  background: url("pc.avif") no-repeat;
+  background: url("pc.avif") repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
-
 }
 
 
 .fondo-quienes {
-  background: url("arena-negra.jpeg") no-repeat;
+  background: url("arena-negra.jpeg") repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -113,7 +112,7 @@ nav .menu {
 }
 
 .fondo-contacto {
-  background: url("arena-negra.jpeg") no-repeat;
+  background: url("arena-negra.jpeg") repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -127,10 +126,7 @@ nav .menu {
 ::before {
   content: "";
   position: absolute;
-  height: 100%;
-  width: 100%;
   background: rgba(0, 0, 0, 0.4);
-
 }
 
 
@@ -642,37 +638,37 @@ margin-left: -1.5vw; */
 }
 .drop{ 
   filter: drop-shadow(0 2px 5px rgb(108, 3, 255));
-  height: 100%;
+  height: 50vh;
   left:-10vh;
 }
 
 .drop2{ 
   filter: drop-shadow(0 2px 5px red);
-  height: 100%;
+  height: 50vh;
   left:-15vh;
 }
 
 .drop3{ 
   filter: drop-shadow(0 2px 5px rgb(254, 149, 167)); 
-  height: 100%;
+  height: 50vh;
   left:-10vh;
 }
 
 .drop4{ 
   filter: drop-shadow(0 2px 5px white);
-  height: 100%;
+  height: 50vh;
   left:-10vh;
 }
 
 .drop5{ 
   filter: drop-shadow(0 2px 5px rgb(0, 110, 255)); 
-  height: 100%;
+  height: 50vh;
   left:-15vh;
 }
 
 .drop6{ 
   filter: drop-shadow(0 2px 5px magenta); 
-  height: 100%;
+  height: 50vh;
   left:-10vh;
 }
 
